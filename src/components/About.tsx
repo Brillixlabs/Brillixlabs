@@ -1,10 +1,10 @@
 import { Users, Award, Clock, Star } from 'lucide-react';
 
 const stats = [
-  { icon: Users, value: '50+', label: 'Happy Clients' },
-  { icon: Award, value: '100+', label: 'Projects Delivered' },
-  { icon: Clock, value: '5+', label: 'Years Experience' },
-  { icon: Star, value: '4.9', label: 'Client Rating' }
+  { icon: Users, value: '10+', label: 'Early Adopters' },
+  { icon: Award, value: '5+', label: 'Innovative Projects' },
+  { icon: Clock, value: '3+', label: 'Active Projects' },
+  { icon: Star, value: '7+', label: 'Technology Partners' }
 ];
 
 export function About() {
@@ -19,20 +19,16 @@ export function About() {
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                We are a cutting-edge development studio passionate about creating 
-                digital experiences that push the boundaries of technology. Our team 
-                of expert developers specializes in modern web technologies and 
-                enterprise-grade solutions.
+                We are a passionate and dedicated team based in Sri Lanka, committed to delivering 
+                cutting-edge digital solutions that drive growth and innovation.
               </p>
               <p>
-                From startups to Fortune 500 companies, we've helped organizations 
-                transform their digital presence with innovative solutions built on 
-                the latest technologies including .NET, React, Next.js, Laravel, and Vue.js.
+                Leveraging modern technologies such as .NET, React, Next.js, and WordPress, we partner 
+                with early adopters to create scalable and impactful web and mobile applications.
               </p>
               <p>
-                Our mission is to bridge the gap between complex business requirements 
-                and elegant technical solutions, delivering products that not only meet 
-                expectations but exceed them.
+                Our mission is to empower businesses by bridging complex requirements with elegant, 
+                user-focused technical solutions.
               </p>
             </div>
           </div>

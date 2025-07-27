@@ -1,41 +1,41 @@
-import { Globe, Smartphone, Database, Cloud, Shield, Zap } from 'lucide-react';
+import { Globe, Smartphone, Database, Cloud, ShieldCheck, Zap } from 'lucide-react';
 
 const services = [
   {
     icon: Globe,
     title: 'Web Development',
-    description: 'Modern, responsive web applications built with cutting-edge technologies.',
-    tech: ['React', 'Next.js', 'Vue.js']
+    description: 'Modern, responsive web applications using .NET, React, and WordPress.',
+    tech: ['.NET', 'ASP.NET Core', 'React', 'Next.js', 'WordPress']
   },
   {
     icon: Smartphone,
     title: 'Mobile Solutions',
-    description: 'Cross-platform mobile apps that deliver exceptional user experiences.',
-    tech: ['React Native', 'Flutter', 'PWA']
+    description: 'Cross-platform mobile apps built with .NET MAUI for seamless experiences.',
+    tech: ['.NET MAUI', 'Blazor', 'PWA']
   },
   {
     icon: Database,
     title: 'Backend Development',
-    description: 'Scalable server-side solutions with robust architecture and performance.',
-    tech: ['.NET', 'Laravel', 'Node.js']
+    description: 'Robust, scalable backend services powered by .NET and Entity Framework Core.',
+    tech: ['.NET', 'Entity Framework Core', 'Blazor']
   },
   {
     icon: Cloud,
     title: 'Cloud Integration',
-    description: 'Seamless cloud deployments and microservices architecture.',
-    tech: ['AWS', 'Azure', 'Docker']
+    description: 'Cloud-native deployments using Azure, AWS, Docker, and Kubernetes.',
+    tech: ['Azure', 'AWS', 'Docker', 'Kubernetes', 'Terraform']
   },
   {
-    icon: Shield,
-    title: 'Security & Testing',
-    description: 'Enterprise-grade security measures and comprehensive testing.',
-    tech: ['Auth', 'Testing', 'CI/CD']
+    icon: ShieldCheck,
+    title: 'DevOps & Security',
+    description: 'Secure CI/CD pipelines and infrastructure automation with GitHub Actions and Azure DevOps.',
+    tech: ['GitHub Actions', 'Azure DevOps', 'CI/CD', 'Terraform']
   },
   {
     icon: Zap,
-    title: 'Performance',
-    description: 'Lightning-fast applications optimized for speed and efficiency.',
-    tech: ['Optimization', 'CDN', 'Caching']
+    title: 'Performance Optimization',
+    description: 'Optimized applications with caching, CDN integration, and load balancing.',
+    tech: ['NGINX', 'Caching', 'CDN', 'Optimization']
   }
 ];
 

@@ -55,6 +55,11 @@ export function Hero() {
               <span className="font-semibold">Next.js</span>
               <span className="font-semibold">Laravel</span>
               <span className="font-semibold">Vue.js</span>
+              <span className="font-semibold">WordPress</span>
+              <span className="font-semibold">Tailwind CSS</span>
+              <span className="font-semibold">Docker</span>
+              <span className="font-semibold">Kubernetes</span>
+              <span className="font-semibold">AWS</span>
             </div>
           </div>
         </div>

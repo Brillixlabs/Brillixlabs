@@ -1,37 +1,131 @@
-import { Monitor, Server, Cloud, Layers, Code, Database, Globe, Settings } from 'lucide-react';
+import {
+  Server,
+  Globe,
+  Smartphone,
+  Database,
+  FileText,
+  Atom,
+  Layers,
+  Cloud,
+  Box,
+  Network,
+  Code2,
+  GitBranch,
+  Wrench,
+  ShieldCheck
+} from 'lucide-react';
 
 const techStack = [
   {
-    category: 'Frontend',
-    icon: Monitor,
-    technologies: [
-      { name: 'React', description: 'Modern UI library for building interactive interfaces', icon: Code, color: 'from-blue-500 to-cyan-500' },
-      { name: 'Next.js', description: 'Full-stack React framework for production', icon: Globe, color: 'from-gray-800 to-gray-600' },
-      { name: 'Vue.js', description: 'Progressive framework for ambitious applications', icon: Layers, color: 'from-green-500 to-emerald-500' },
-      { name: 'TypeScript', description: 'Type-safe JavaScript for large applications', icon: Code, color: 'from-blue-600 to-blue-400' }
-    ]
-  },
-  {
-    category: 'Backend',
+    category: 'Tools & Frameworks We Use',
     icon: Server,
     technologies: [
-      { name: '.NET', description: 'Enterprise-grade backend development platform', icon: Server, color: 'from-purple-600 to-purple-400' },
-      { name: 'Laravel', description: 'Elegant PHP framework for web artisans', icon: Code, color: 'from-red-500 to-orange-500' },
-      { name: 'Node.js', description: 'JavaScript runtime for scalable backend services', icon: Server, color: 'from-green-600 to-green-400' },
-      { name: 'GraphQL', description: 'Modern API query language and runtime', icon: Database, color: 'from-pink-500 to-rose-500' }
+      {
+        name: '.NET',
+        description: 'High-performance framework for enterprise-grade web applications',
+        icon: Server,
+        color: 'from-purple-600 to-purple-400'
+      },
+      {
+        name: 'ASP.NET Core',
+        description: 'Modern, fast, and secure web development platform',
+        icon: Globe,
+        color: 'from-indigo-600 to-blue-500'
+      },
+      {
+        name: '.NET MAUI',
+        description: 'Cross-platform mobile and desktop app framework',
+        icon: Smartphone,
+        color: 'from-green-500 to-emerald-400'
+      },
+      {
+        name: 'Blazor',
+        description: 'Build rich interactive web UIs using C# instead of JavaScript',
+        icon: Code2,
+        color: 'from-blue-500 to-cyan-400'
+      },
+      {
+        name: 'Entity Framework Core',
+        description: 'Modern ORM for .NET applications, simplifying data access',
+        icon: Database,
+        color: 'from-amber-500 to-orange-400'
+      },
+      {
+        name: 'WordPress',
+        description: 'Flexible CMS platform for content-driven websites',
+        icon: FileText,
+        color: 'from-blue-400 to-indigo-500'
+      },
+      {
+        name: 'React',
+        description: 'JavaScript library for creating interactive UI components',
+        icon: Atom,
+        color: 'from-blue-500 to-cyan-400'
+      },
+      {
+        name: 'Next.js',
+        description: 'React framework for SSR, static generation, and edge rendering',
+        icon: Layers,
+        color: 'from-gray-800 to-black'
+      }
     ]
   },
   {
     category: 'DevOps & Cloud',
     icon: Cloud,
     technologies: [
-      { name: 'AWS', description: 'Comprehensive cloud computing platform', icon: Cloud, color: 'from-orange-500 to-yellow-500' },
-      { name: 'Docker', description: 'Containerization for consistent deployments', icon: Layers, color: 'from-blue-500 to-blue-300' },
-      { name: 'Kubernetes', description: 'Container orchestration at scale', icon: Settings, color: 'from-blue-600 to-purple-600' },
-      { name: 'CI/CD', description: 'Automated testing and deployment pipelines', icon: Settings, color: 'from-indigo-500 to-purple-500' }
+      {
+        name: 'Azure',
+        description: 'Microsoft’s cloud platform optimized for .NET workloads',
+        icon: Cloud,
+        color: 'from-blue-700 to-blue-500'
+      },
+      {
+        name: 'AWS',
+        description: 'Comprehensive cloud infrastructure for scalable hosting',
+        icon: Network,
+        color: 'from-orange-500 to-yellow-500'
+      },
+      {
+        name: 'Docker',
+        description: 'Containerization for consistent and portable deployments',
+        icon: Box,
+        color: 'from-blue-500 to-blue-300'
+      },
+      {
+        name: 'Kubernetes',
+        description: 'Automated container orchestration at scale',
+        icon: Wrench,
+        color: 'from-blue-600 to-purple-600'
+      },
+      {
+        name: 'Terraform',
+        description: 'Infrastructure as Code for automated provisioning',
+        icon: Layers,
+        color: 'from-green-500 to-emerald-400'
+      },
+      {
+        name: 'GitHub Actions',
+        description: 'CI/CD automation for testing and deployments',
+        icon: GitBranch,
+        color: 'from-gray-700 to-gray-500'
+      },
+      {
+        name: 'Azure DevOps',
+        description: 'End-to-end DevOps solution for .NET projects',
+        icon: Code2,
+        color: 'from-blue-600 to-blue-400'
+      },
+      {
+        name: 'NGINX',
+        description: 'High-performance web server and reverse proxy for scalability',
+        icon: ShieldCheck,
+        color: 'from-emerald-500 to-teal-400'
+      }
     ]
   }
 ];
+
 
 export function TechStack() {
   return (
@@ -42,7 +136,8 @@ export function TechStack() {
             Our <span className="gradient-text">Tech Stack</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We leverage the most advanced technologies to deliver exceptional results
+            We prioritize .NET technologies for enterprise-grade solutions, 
+            while leveraging WordPress and modern frameworks for flexibility and scalability.
           </p>
         </div>
 
