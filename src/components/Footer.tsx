@@ -29,7 +29,7 @@ export function Footer() {
               Building the future of digital experiences with cutting-edge technologies 
               and innovative solutions.
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
@@ -40,7 +40,7 @@ export function Footer() {
                   <social.icon className="w-5 h-5" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Footer Links */}

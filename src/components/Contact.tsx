@@ -51,7 +51,7 @@ export function Contact() {
             <div className="glass-card p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
               <div className="space-y-6">
-                <div className="flex items-center gap-4">
+                {/* <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-gradient-primary flex items-center justify-center">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
@@ -59,7 +59,7 @@ export function Contact() {
                     <div className="font-semibold">Email</div>
                     <div className="text-muted-foreground">hello@brillixlabs.com</div>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-gradient-primary flex items-center justify-center">
                     <Phone className="w-6 h-6 text-white" />
