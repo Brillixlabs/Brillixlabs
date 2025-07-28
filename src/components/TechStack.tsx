@@ -76,7 +76,7 @@ const techStack = [
     technologies: [
       {
         name: 'Azure',
-        description: 'Microsoft’s cloud platform optimized for .NET workloads',
+        description: 'Microsoft\'s cloud platform optimized for .NET workloads',
         icon: Cloud,
         color: 'from-blue-700 to-blue-500'
       },
@@ -129,39 +129,39 @@ const techStack = [
 
 export function TechStack() {
   return (
-    <section id="tech-stack" className="py-24 px-6 bg-muted/30">
+    <section id="tech-stack" className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 bg-muted/30">
       <div className="container mx-auto">
-        <div className="text-center mb-16 fade-in">
-          <h2 className="text-5xl font-black mb-6">
+        <div className="text-center mb-12 sm:mb-16 fade-in">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-4 sm:mb-6">
             Our <span className="gradient-text">Tech Stack</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             We prioritize .NET technologies for enterprise-grade solutions, 
             while leveraging WordPress and modern frameworks for flexibility and scalability.
           </p>
         </div>
 
-        <div className="space-y-16">
+        <div className="space-y-12 sm:space-y-16">
           {techStack.map((category, categoryIndex) => (
             <div key={category.category} className="fade-in" style={{ animationDelay: `${categoryIndex * 200}ms` }}>
-              <div className="flex items-center justify-center gap-3 mb-8">
-                <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center">
-                  <category.icon className="w-6 h-6 text-white" />
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 mb-6 sm:mb-8">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-primary flex items-center justify-center">
+                  <category.icon className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                 </div>
-                <h3 className="text-3xl font-bold">{category.category}</h3>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center sm:text-left">{category.category}</h3>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
                 {category.technologies.map((tech, techIndex) => (
                   <div
                     key={tech.name}
-                    className="glass-card p-6 rounded-2xl hover-glow group"
+                    className="glass-card p-4 sm:p-6 rounded-2xl hover-glow group"
                     style={{ animationDelay: `${(categoryIndex * 200) + (techIndex * 100)}ms` }}
                   >
-                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${tech.color} mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center`}>
-                      <tech.icon className="w-6 h-6 text-white" />
+                    <div className={`w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-r ${tech.color} mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center`}>
+                      <tech.icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                     </div>
-                    <h4 className="text-xl font-bold mb-2">{tech.name}</h4>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
+                    <h4 className="text-lg sm:text-xl font-bold mb-2">{tech.name}</h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                       {tech.description}
                     </p>
                   </div>

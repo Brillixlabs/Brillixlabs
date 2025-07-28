@@ -1,19 +1,31 @@
 import { Resend } from 'resend';
+import { type ContactFormData } from './validation';
 
-const resend = new Resend(import.meta.env.VITE_RESEND_API_KEY);
-
-export interface ContactFormData {
-  name: string;
-  email: string;
-  projectType: string;
-  message: string;
-}
+// Hardcoded API key - replace with your actual Resend API key
+const resend = new Resend('re_1234567890abcdef'); // Replace this with your actual API key
 
 export const sendContactEmail = async (formData: ContactFormData) => {
+  console.log('sendContactEmail called with:', formData);
+  
+  // For testing, just log the data and return success
+  console.log('Email data that would be sent:', {
+    from: 'noreply@brillixlabs.com',
+    to: 'hello@brillixlabs.com',
+    subject: `New Project Inquiry from ${formData.name}`,
+    formData: formData
+  });
+  
+  // Simulate API delay
+  await new Promise(resolve => setTimeout(resolve, 1000));
+  
+  // For now, just return success without actually sending email
+  return { success: true, data: { id: 'test-email-id' } };
+  
+  /*
   try {
     const { data, error } = await resend.emails.send({
-      from: import.meta.env.VITE_FROM_EMAIL || 'noreply@brillixlabs.com',
-      to: import.meta.env.VITE_TO_EMAIL || 'hello@brillixlabs.com',
+      from: 'noreply@brillixlabs.com',
+      to: 'hello@brillixlabs.com',
       subject: `New Project Inquiry from ${formData.name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -41,4 +53,5 @@ export const sendContactEmail = async (formData: ContactFormData) => {
     console.error('Email sending failed:', error);
     throw new Error(error instanceof Error ? error.message : 'Failed to send email');
   }
+  */
 }; 
