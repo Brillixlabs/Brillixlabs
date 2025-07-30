@@ -22,11 +22,10 @@ export function Navigation() {
             <img 
               src="/assets/logo_icon.png" 
               alt="Brillix Labs" 
-              width={28} 
-              height={28}
-              className="w-7 h-7 sm:w-8 sm:h-8" 
+              width={220} 
+              height={16}
+              className="w-37 sm:w-220 sm:h-16" 
             />
-            <span className="text-lg sm:text-xl font-black gradient-text">Brillix Labs</span>
           </div>
 
           {/* Desktop Navigation */}

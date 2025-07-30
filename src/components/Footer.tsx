@@ -21,8 +21,13 @@ export function Footer() {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-primary" />
-              <span className="text-xl font-black gradient-text">Brillix Labs</span>
+              <img 
+                src="/assets/logo_icon.png" 
+                alt="Brillix Labs" 
+                width={220} 
+                height={16}
+                className="w-37 sm:w-220 sm:h-16" 
+              />
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Building the future of digital experiences with cutting-edge technologies 
