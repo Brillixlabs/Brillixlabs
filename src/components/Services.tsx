@@ -23,7 +23,7 @@ const services = [
     icon: Cloud,
     title: 'Cloud Integration',
     description: 'Cloud-native deployments using Azure, AWS, Docker, and Kubernetes.',
-    tech: ['Azure', 'AWS', 'Kubernetes', 'Terraform']
+    tech: ['Azure', 'AWS']
   },
   {
     icon: ShieldCheck,

@@ -12,10 +12,10 @@ export function Hero() {
       <div className="container mx-auto px-4 sm:px-6 text-center relative z-10">
         <div className="fade-in">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 glass-card px-3 sm:px-4 py-2 rounded-full mb-6 sm:mb-8">
+          {/* <div className="inline-flex items-center gap-2 glass-card px-3 sm:px-4 py-2 rounded-full mb-6 sm:mb-8">
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-primary" />
             <span className="text-xs sm:text-sm font-medium">Next-Gen Development Studio</span>
-          </div>
+          </div> */}
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-4 sm:mb-6 leading-tight px-2">
@@ -26,7 +26,7 @@ export function Hero() {
 
           {/* Subtitle */}
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-2xl sm:max-w-3xl mx-auto leading-relaxed px-4">
-            Cutting-edge web applications with <strong>.NET</strong>, <strong>React</strong>, <strong>Next.js</strong>, 
+            Cutting-edge IT solutions with <strong>.NET</strong>, <strong>React</strong>, <strong>Next.js</strong>, 
             <strong> Laravel</strong>, and <strong>Vue.js</strong>. Where innovation meets excellence.
           </p>
 
@@ -56,9 +56,7 @@ export function Hero() {
               <span className="font-semibold">Laravel</span>
               <span className="font-semibold">Vue.js</span>
               <span className="font-semibold">WordPress</span>
-              <span className="font-semibold">Tailwind CSS</span>
               <span className="font-semibold">Docker</span>
-              <span className="font-semibold">Kubernetes</span>
               <span className="font-semibold">AWS</span>
             </div>
           </div>
