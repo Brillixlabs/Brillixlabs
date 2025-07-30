@@ -5,38 +5,32 @@ const services = [
     icon: Globe,
     title: 'Web Development',
     description: 'Modern, responsive web applications using .NET, React, and WordPress.',
-    tech: ['.NET', 'ASP.NET Core', 'React', 'Next.js', 'WordPress']
+    tech: ['.NET', 'ASP.NET Core', 'Blazor', 'React', 'Next.js', 'WordPress', 'Tailwind CSS']
   },
   {
     icon: Smartphone,
     title: 'Mobile Solutions',
     description: 'Cross-platform mobile apps built with .NET MAUI for seamless experiences.',
-    tech: ['.NET MAUI', 'Blazor', 'PWA']
+    tech: ['.NET MAUI', 'MAUI/Xamarin', 'Flutter', 'React Native',]
   },
   {
     icon: Database,
     title: 'Backend Development',
     description: 'Robust, scalable backend services powered by .NET and Entity Framework Core.',
-    tech: ['.NET', 'Entity Framework Core', 'Blazor']
+    tech: ['.NET', 'Azure',]
   },
   {
     icon: Cloud,
     title: 'Cloud Integration',
     description: 'Cloud-native deployments using Azure, AWS, Docker, and Kubernetes.',
-    tech: ['Azure', 'AWS', 'Docker', 'Kubernetes', 'Terraform']
+    tech: ['Azure', 'AWS', 'Kubernetes', 'Terraform']
   },
   {
     icon: ShieldCheck,
     title: 'DevOps & Security',
     description: 'Secure CI/CD pipelines and infrastructure automation with GitHub Actions and Azure DevOps.',
-    tech: ['GitHub Actions', 'Azure DevOps', 'CI/CD', 'Terraform']
+    tech: ['GitHub Actions', 'Azure DevOps']
   },
-  {
-    icon: Zap,
-    title: 'Performance Optimization',
-    description: 'Optimized applications with caching, CDN integration, and load balancing.',
-    tech: ['NGINX', 'Caching', 'CDN', 'Optimization']
-  }
 ];
 
 export function Services() {

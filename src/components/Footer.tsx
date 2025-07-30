@@ -10,8 +10,7 @@ const socialLinks = [
 const footerLinks = {
   Services: ['Web Development', 'Mobile Apps', 'Backend Solutions', 'Cloud Integration'],
   Technologies: ['.NET', 'React', 'Next.js', 'Laravel', 'Vue.js'],
-  Company: ['About Us', 'Our Team', 'Careers', 'Contact'],
-  Resources: ['Blog', 'Case Studies', 'Documentation', 'Support']
+  Company: ['About Us', 'Contact'],
 };
 
 export function Footer() {

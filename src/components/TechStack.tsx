@@ -45,12 +45,6 @@ const techStack = [
         color: 'from-blue-500 to-cyan-400'
       },
       {
-        name: 'Entity Framework Core',
-        description: 'Modern ORM for .NET applications, simplifying data access',
-        icon: Database,
-        color: 'from-amber-500 to-orange-400'
-      },
-      {
         name: 'WordPress',
         description: 'Flexible CMS platform for content-driven websites',
         icon: FileText,
@@ -99,12 +93,6 @@ const techStack = [
         color: 'from-blue-600 to-purple-600'
       },
       {
-        name: 'Terraform',
-        description: 'Infrastructure as Code for automated provisioning',
-        icon: Layers,
-        color: 'from-green-500 to-emerald-400'
-      },
-      {
         name: 'GitHub Actions',
         description: 'CI/CD automation for testing and deployments',
         icon: GitBranch,
@@ -116,12 +104,6 @@ const techStack = [
         icon: Code2,
         color: 'from-blue-600 to-blue-400'
       },
-      {
-        name: 'NGINX',
-        description: 'High-performance web server and reverse proxy for scalability',
-        icon: ShieldCheck,
-        color: 'from-emerald-500 to-teal-400'
-      }
     ]
   }
 ];
