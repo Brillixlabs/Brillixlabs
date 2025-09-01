@@ -87,12 +87,6 @@ const techStack = [
         color: 'from-blue-500 to-blue-300'
       },
       {
-        name: 'Kubernetes',
-        description: 'Automated container orchestration at scale',
-        icon: Wrench,
-        color: 'from-blue-600 to-purple-600'
-      },
-      {
         name: 'GitHub Actions',
         description: 'CI/CD automation for testing and deployments',
         icon: GitBranch,

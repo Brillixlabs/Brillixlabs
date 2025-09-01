@@ -43,9 +43,11 @@ export function Navigation() {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <Button variant="gradient" size="sm">
-              Get Started
-            </Button>
+            <a href="#contact">
+              <Button variant="gradient" size="sm">
+                Get Started
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -75,9 +77,11 @@ export function Navigation() {
                 </a>
               ))}
               <div className="pt-4 border-t border-border/50">
-                <Button variant="gradient" size="sm" className="w-full">
-                  Get Started
-                </Button>
+                <a href="#contact">
+                  <Button variant="gradient" size="sm" className="w-full">
+                    Get Started
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
