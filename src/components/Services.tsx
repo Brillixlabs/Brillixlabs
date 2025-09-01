@@ -10,7 +10,7 @@ const services = [
   {
     icon: Smartphone,
     title: 'Mobile Solutions',
-    description: 'Cross-platform mobile apps built with .NET MAUI for seamless experiences.',
+    description: 'Cross-platform mobile apps built with modern frameworks for seamless experiences.',
     tech: ['.NET MAUI(Xamarin)', 'Flutter', 'React Native',]
   },
   {

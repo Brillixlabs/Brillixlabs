@@ -89,7 +89,7 @@ export function OutsourcingBenefits() {
               Ready to Experience the Benefits?
             </h3>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join hundreds of satisfied clients who have already discovered the advantages 
+              Join with us who have already discovered the advantages 
               of outsourcing to Sri Lanka with Brillix Labs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
