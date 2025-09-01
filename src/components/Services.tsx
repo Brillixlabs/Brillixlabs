@@ -11,7 +11,7 @@ const services = [
     icon: Smartphone,
     title: 'Mobile Solutions',
     description: 'Cross-platform mobile apps built with .NET MAUI for seamless experiences.',
-    tech: ['.NET MAUI', 'MAUI/Xamarin', 'Flutter', 'React Native',]
+    tech: ['.NET MAUI(Xamarin)', 'Flutter', 'React Native',]
   },
   {
     icon: Database,
@@ -22,7 +22,7 @@ const services = [
   {
     icon: Cloud,
     title: 'Cloud Integration',
-    description: 'Cloud-native deployments using Azure, AWS, Docker, and Kubernetes.',
+    description: 'Cloud-native deployments using Azure, AWS, and Docker.',
     tech: ['Azure', 'AWS']
   },
   {

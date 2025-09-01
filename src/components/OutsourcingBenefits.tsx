@@ -17,7 +17,7 @@ const benefits = [
     icon: Clock,
     title: 'Faster Time to Market',
     description: 'Benefit from overlapping time zones and dedicated teams working around the clock to accelerate your project delivery.',
-    highlight: '24/7 Development'
+    highlight: 'Rapid Delivery'
   },
   {
     icon: Shield,
